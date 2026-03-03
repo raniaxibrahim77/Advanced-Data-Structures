@@ -8,7 +8,7 @@ How to Run:
 2. Navigate to the directory containing 'bst.py'.
 3. Execute the following command:
 
-   python bst.py
+   python bst.py(Windows) or python3 bst.py(For Mac/Linux)
 
 Output:
 The script will run a built-in test case that demonstrates:
