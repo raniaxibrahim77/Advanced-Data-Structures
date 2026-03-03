@@ -1,0 +1,19 @@
+BINARY SEARCH TREE - RUN INSTRUCTIONS
+
+Requirements:
+- Python 3.x installed on your system.
+
+How to Run:
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing 'bst.py'.
+3. Execute the following command:
+
+   python bst.py
+
+Output:
+The script will run a built-in test case that demonstrates:
+- Inserts a set of initial values.
+- Displays the sorted order of the tree.
+- Finds and prints the min/max values.
+- Performs a search for a specific key.
+- Deletes specific nodes(20, 50) and displays the updated tree.
