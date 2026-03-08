@@ -1,0 +1,26 @@
+RED-BLACK TREE - RUN INSTRUCTIONS
+
+Requirements:
+Python 3.x installed on your system.
+
+The project files: rbt.py.
+
+How to Run:
+Open a terminal or command prompt.
+
+Navigate to the directory containing rbt.py
+
+Execute the following command:
+
+Windows: python rbt.py
+Mac/Linux: python3 rbt.py
+
+Output:
+
+The script provides an interactive menu to demonstrate:
+
+Insertion: Adds values and automatically balances the tree using colors (Red/Black) and rotations.
+Visual Structure: Displays the tree in an indented format where nodes are marked with (R) for Red and (B) for Black.
+Search: Performs a binary search for a specific key and returns whether the node was found.
+Min/Max: Finds and prints the minimum and maximum keys in the tree.
+Deletion: Removes arbitrary nodes and performs rebalancing to maintain Red-Black properties.
