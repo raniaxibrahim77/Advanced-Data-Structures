@@ -1,0 +1,14 @@
+Data Structure Challenges: Leaderboard & Dynamic Median
+
+Problem 1. Dynamic Leaderboard
+A system that maintains player scores in real-time.
+
+Problem 2. Dynamic Median of a Data Stream
+A data structure that tracks a stream of integers and reports the median at any time.
+
+## How to Run
+Ensure you have Python 3.x installed. Run the scripts directly via terminal:
+
+```bash
+python problem1.py
+python problem2.py
