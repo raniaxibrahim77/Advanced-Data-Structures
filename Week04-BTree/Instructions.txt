@@ -1,0 +1,15 @@
+Requirements:
+Python 3.x installed on your system.
+The project file: btree.py
+
+How to Run:
+Open a terminal or command prompt.
+Navigate to the directory containing btree.py.
+Execute the following command:
+-Windows: python btree.py
+-Mac/Linux: python3 btree.py
+
+Output:
+The script runs a built-in test case that inserts a specific list of keys into the B-Tree.
+It automatically handles node splitting to maintain balance and then performs a search for
+the key "12," printing the contents of the node where the key was found to verify the structure.
