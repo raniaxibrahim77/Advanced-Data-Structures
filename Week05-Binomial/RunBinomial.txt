@@ -1,0 +1,18 @@
+Requirements:
+- Python 3.x installed on your system.
+- The project file: binomial_heap.py
+
+How to Run:
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing binomial_heap.py.
+3. Execute the following command:
+   - Windows:   python binomial_heap.py
+   - Mac/Linux: python3 binomial_heap.py
+
+Output:
+- The script executes a built-in test case that inserts a specific
+  list of keys (10, 20, 5, 15, 3) into the Binomial Heap.
+- It demonstrates the Union operation by organizing trees into orders
+  corresponding to the binary representation of the number of nodes (n=5).
+-The script then performs an Extract-Min operation, removes the smallest key,
+and re-balances the remaining trees to verify the heap's structural integrity.

@@ -1,0 +1,24 @@
+Requirements:
+- Python 3.x installed on your system.
+- The project file: dsu.py
+
+How to Run:
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing dsu.py.
+3. Execute the following command:
+   - Windows:   python dsu.py
+   - Mac/Linux: python3 dsu.py
+
+Output:
+- The script processes a built-in test case with n=7 users and a
+  predefined list of friendship events: [(0,1), (1,2), (3,4), (5,6)].
+- It demonstrates the Union-Find operation by merging connected
+  components based on transitive friendship logic.
+- The final output displays:
+    a. The total number of unique friend groups (provinces).
+    b. Each group's index, members, and total size.
+
+Algorithm Details:
+- Uses Path Compression to keep the tree structure flat.
+- Efficiently handles cycle detection: if find(u) == find(v), the users
+  are already in the same group, and a cycle is formed.
